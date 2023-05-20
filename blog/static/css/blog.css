@@ -1,6 +1,6 @@
 
 .techfon{
-    font-family: font-family: 'Lilita One', cursive;
+    font-family: font-family: 'Lilita One', 'cursive';
     font-size: 1.5em;
     margin-bottom: 10px;
 }
@@ -56,4 +56,21 @@ h1{
 .centerstage {
     margin-left: auto;
     margin-right: auto;
+}
+
+.postdate{
+    text-align: center;
+}
+.posttitle{
+    font-family: font-family: 'Lilita One', 'cursive';
+    font-size: 3em;
+    text-align: center;
+}
+.postconte{
+    font-family: "Lilita One";
+    font-size: 1.5em;
+}
+.btn_comment{
+    position: absolute;
+    right: 0px;
 }
