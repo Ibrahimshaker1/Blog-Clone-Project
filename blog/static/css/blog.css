@@ -53,3 +53,7 @@ h1{
   100%{filter:hue-rotate(360deg);}
 
 }
+.centerstage {
+    margin-left: auto;
+    margin-right: auto;
+}
