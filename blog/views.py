@@ -77,7 +77,7 @@ def add_comment_to_post(request, pk):
 @login_required
 def comment_approve(request, pk):
     comment = get_object_or_404(Comment, pk=pk)
-    comment.approve()
+    comment.approved()
     return redirect("post_detail", pk=comment.post.pk)
 
 @login_required
@@ -90,5 +90,5 @@ def comment_remove(request, pk):
 @login_required
 def post_publish(request, pk):
     post = get_object_or_404(Post, pk=pk)
-    post.publish
+    post.publish()
     return redirect("post_detail", pk=pk)
